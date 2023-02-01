@@ -1,17 +1,17 @@
 import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
 
 function App() {
+  const title = 'Learning React - All the pieces!';
+
   return (
     <div>
-      <Header />
+      <Header title={title} />
 
-      <main>
-        <h1>Main Section</h1>
-      </main>
+      <Main />
 
-      <footer>
-        <p>&copy; 2023 </p>
-      </footer>
+      <Footer title={title} />
     </div>
   );
 }
