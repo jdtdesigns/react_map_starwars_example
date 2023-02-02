@@ -35,19 +35,17 @@ header h3 {
   font-size: 1.025rem;
 }
 
-header .count-controls button {
-  padding: 3px 8px;
-  cursor: pointer;
-}
-
-header .count-controls button:not(:last-child) {
-  margin-right: 15px;
-}
-
 main {
   flex: 1;
-  display: flex;
   padding: 35px 5%;
+}
+
+main h2 {
+  margin-bottom: 25px;
+}
+
+main ul {
+  margin-left: 35px;
 }
 
 footer {

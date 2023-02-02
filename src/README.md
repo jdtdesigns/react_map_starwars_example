@@ -1,18 +1,14 @@
-# React Counter Activity - Day 3
+# React Map Activity One - Day 3
 
-In this activity, you'll import useState to create a count variable and pass the setter function to the Header to update the count
+In this activity, you'll use the array map method to loop over an array of names and generate an ```<li>``` for each name in the array.
 
 ## Instructions
 
-* Import useState from react
-* Using array deconstruction, create a state variable called ```count``` and a setter function called ```setCount```
-* Pass the setCount function to the Header and use the two provided buttons to update the count appropriately on click
-* Output the count variable in the provided h1 within main
-
-### Bonus
-* See if you can set the decrease button to only decrease count if the count is greater than zero.
+* Within your App component, create an array of names, using a static const variable
+* Using the array .map() method, loop over the names array and output an ```<li>``` within the provided ```<ul>``` for each name in the array.
+  * Don't forget the ```key``` prop that is required on each item returned from the .map() callback
 
 ### Hints
-* If you get stuck, check out [this guide](https://reactjs.org/docs/hooks-state.html) on useState.  **Only do this if you exhaust all other methods of research!**
+* If you get stuck, check out [this guide](https://reactjs.org/docs/lists-and-keys.html) on working with lists in React.  **Only do this if you exhaust all other methods of research!**
 
 

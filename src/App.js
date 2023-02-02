@@ -2,16 +2,22 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const title = 'React Counter Activity - Day 3';
+  const title = 'Map Activity One - Day 3';
+  // Create an array of names, using a static const variable
 
   return (
     <>
-      {/* Pass the setCount function as a prop to Header */}
       <Header title={title} />
 
       <main>
-        {/* Output the state count variable here */}
-        <h1>Count: OUTPUT_COUNT_HERE</h1>
+
+        <h2>Names: </h2>
+
+        <ul>
+          {/* 
+          Use the array map method to loop over the names array and output an li for each name - set the li text to the name
+        */}
+        </ul>
 
       </main>
 
