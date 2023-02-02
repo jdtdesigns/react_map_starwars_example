@@ -1,19 +1,17 @@
 import Header from './components/Header';
-import LeftContent from './components/LeftContent';
-import RightContent from './components/RightContent';
 import Footer from './components/Footer';
 
 function App() {
-  const title = 'React Styles Activity - Day 3';
+  const title = 'React Counter Activity - Day 3';
 
   return (
     <>
+      {/* Pass the setCount function as a prop to Header */}
       <Header title={title} />
 
-      <main className="content-wrapper">
-
-        <LeftContent />
-        <RightContent />
+      <main>
+        {/* Output the state count variable here */}
+        <h1>Count: OUTPUT_COUNT_HERE</h1>
 
       </main>
 
