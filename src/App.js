@@ -1,24 +1,24 @@
-import { useState } from 'react';
-
 import Header from './components/Header';
+import LeftContent from './components/LeftContent';
+import RightContent from './components/RightContent';
 import Footer from './components/Footer';
-import Main from './components/Main';
-
 
 function App() {
-  const title = 'Learning React - All the pieces!';
-  const [showMain, setShowMain] = useState(true); // [0, function() {}]
+  const title = 'React Styles Activity - Day 3';
 
   return (
-    <div>
+    <>
       <Header title={title} />
 
-      {showMain && <Main />}
+      <main className="content-wrapper">
 
-      <button onClick={() => setShowMain(!showMain)}>{showMain ? 'Hide' : 'Show'} Main</button>
+        <LeftContent />
+        <RightContent />
+
+      </main>
 
       <Footer title={title} />
-    </div>
+    </>
   );
 }
 
