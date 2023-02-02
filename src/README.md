@@ -1,11 +1,14 @@
-# React Map Activity One - Day 3
+# React Map Activity Two - Day 3
 
-In this activity, you'll use the array map method to loop over an array of names and generate an ```<li>``` for each name in the array.
+In this activity, you'll use the array map method to loop over an array of Starwars characters provided in the data.json file, and generate a ```<div>``` for each object in the array.
 
 ## Instructions
 
-* Within your App component, create an array of names, using a static const variable
-* Using the array .map() method, loop over the names array and output an ```<li>``` within the provided ```<ul>``` for each name in the array.
+* Import the data.json array into your App component file. 
+* Using the array .map() method, loop over the characters array and output a ```<div>``` for each character object in the array.
+  * The div should have the following two internal elements:
+    * An ```<h3>``` with the character's name.
+    * A ```<p>``` with the character's birth year.
   * Don't forget the ```key``` prop that is required on each item returned from the .map() callback
 
 ### Hints
