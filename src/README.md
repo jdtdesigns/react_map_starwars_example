@@ -8,6 +8,6 @@ In this activity, you'll add some private/local styles to the left and right sec
 * Using an object, make the background-color of the RightSection ```#888``` and the h1 color ```#fff```
 
 ### Hints
-* If you get stuck, check out [this guide](https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-3/styling-react-css-objects) on injecting scoped/private styles.
+* If you get stuck, check out [this guide](https://www.learnhowtoprogram.com/react-part-time-react-track/react-fundamentals-part-3/styling-react-css-objects) on injecting styles into components using objects.
 
 
